@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <title>PikselClone</title>
+    <link rel="stylesheet" href="./styles/style-app.css">
+    <link rel="stylesheet" href="./styles/font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+    <p>PikselClone</p>
+    <p>New Piksel</p>
+</header>
+<body>
+    <div class="main-container">
+        <div class="draw-tools-container">
+            <div class="resize-draw-area-container">
+                <div class="area-32"><p>32</p></div>
+                <div class="area-64"><p>64</p></div>
+                <div class="area-128"><p>128</p></div>
+            </div>
+            <div class="pen"><i class="fa fa-pencil-square"></i></div>
+            <div class="color-selector"><i class="fa fa-eyedropper" aria-hidden="true"></i></div>
+            <div class="eraser"><i class="fa fa-eraser" aria-hidden="true"></i></div>
+            <div class="double-pen"><p>Mirror pen</p></div>
+            <div class="dithering"><p>Dithering</p></div>
+            <div class="color-container">
+                <div>
+                    <div class="selected-color"></div>
+                    <div class="prev-color"></div>
+                </div>
+                <div>
+                    <div class="red-color"></div>
+                    <div class="green-color"></div>
+                </div>
+                <div>
+                    <div class="blue-color"></div>
+                    <div class="yellow-color"></div>
+                </div>
+            </div>
+        </div>
+        <div class="frames-container">
+            <div class="add-button"><p>Add frame</p></div>
+        </div>
+        <div class="canvas-container">
+            <canvas id="canvas" width="896" height="896"></canvas>
+        </div>
+        <div class="tools-container">
+            <div class="preview-animation-container">
+                <div class="animation-preview-container">
+                    <canvas class="animation-preview-content" width="250" height="250">
+
+                    </canvas>
+                </div>
+                <div class="animation-fullscrean-mode">
+
+                </div>
+            </div>
+            <footer><p class="coordinate-info"></p></footer>
+        </div>
+    </div>
+    <script async src= "./build/build.js" ></script>
+</body>
+<footer>
+
+</footer>
