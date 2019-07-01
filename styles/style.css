@@ -1,0 +1,135 @@
+header,
+footer {
+    display: flex;
+    background-color: #A2E6D7;
+    justify-content: space-around;
+}
+
+body {
+    background-color: #F8FCD9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header div {
+    display: flex;
+    width: 175px;
+    height: 60px;
+    background-color: #548C81;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #246B61;
+    font-size: 25px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+h1 {
+    color: #246B61;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    border-color: #A2E6D7;
+    border-style: solid;
+    border-width: medium;
+    border-top:0;
+    border-bottom: 0;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.screenshoot-preview {
+    overflow: hidden;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.screenshoot-preview img {
+    border-style: solid;
+    border-width: medium;
+    border-color: #A2E6D7;
+}
+
+.link-to-app {
+    margin-top: 17px;
+}
+
+.screenshoot-container,
+.animation-preview-container,
+.functionality-overview-container {
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.functionality-overview-tools,
+.functionality-overview-animation,
+.functionality-overview-frames {
+    flex-direction: column;
+    width: 300px;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration:none;
+    color: inherit;
+}
+
+.animation-preview-container p {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.animation-preview-container {
+    width: 800px;
+    border-style: solid;
+    border-width: medium;
+    border-left: 0;
+    border-right: 0;
+    border-color: #A2E6D7;
+}
+
+.animation-preview-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.functionality-overview-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.functionality-tools-description,
+.functionality-animation-description,
+.functionality-frames-description {
+    height: 180px;
+    font-weight: bolder;
+    border-bottom: medium solid #A2E6D7;
+    display: flex;
+    align-items: center;
+}
+
+.functionality-overview-container  img {
+    border-style: solid;
+    border-width: medium;
+    border-color: #A2E6D7;
+}
